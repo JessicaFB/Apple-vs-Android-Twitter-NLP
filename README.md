@@ -1,2 +1,2 @@
-# Apple-vs-Android-Twitter-NLP
-An analysis of Twitter comments to determine user sentiments about Apple vs. Google products.
+# Time-Series-Modeling
+A time series analysis to discover the top 5 best zip codes to invest in. We will be forecasting real estate prices of various zip codes using data from Zillow.
