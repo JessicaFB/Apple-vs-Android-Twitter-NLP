@@ -1,5 +1,5 @@
 # Time-Series-Modeling
-Here we utilize a SARIMAX time series model to discover the top 5 zip codes of Los Angeles, California to invest in. 
+**A SARIMAX time series model analysis to discover the top 5 best zip codes of Los Angeles, California to invest in.**
 
 ### Author: Jessica Forrest-Baldini
 
@@ -40,11 +40,27 @@ A gridsearch was conducted to find the optimal parameter values for the SARIMAX 
 
 I then ran a gridsearch for one zip code, West Hollywood and applied the model with those optimized parameters to all 100 zip codes, also considering RMSE (if RMSE was lower for a slightly higher BIC, then the lower RMSE set of parameters would be used). This yielded clear results with a clear trend and projections that had much smaller confidence intervals than the all-of-LA-averaged model. 
 
+**Forecasting**
+
+We used dynamic forecasted and projected median home sale values for each zip code 5 years into the future and based the current median home sale value as the investment value. With the investment value and the 5-year projected value we calculated ROI (return on investment) as:
+
+profit/investment * 100 -which equated to- (forecasted value - current value)/investment value * 100
+
+We then looked at the top 10 zip codes and took into account confidence intervals. The top projected zip code was removed due to the confidence intervals being so uncertain (large). The next 5 offered the highest ROI while having much smaller confidence intervals. 
+
+**Top 5 Zip Code Selection
+
+We looked at the Top 10 zip codes selected 
+
 ## Results
 
 ### Top 10 Zip Codes & Metrics  
 
 !["Top 10 Zip Codes"](figures/top_10_table.csv)
+
+### Top 5 Zip Codes
+
+We selected 
 
 ### Feature Importance
 
