@@ -58,51 +58,47 @@ We looked at the top 10 zip codes selecting for highest ROI, while also taking i
 
 ### Top 5 Zip Codes
 
+Ranked #2-6 by highest ROI and selected for by lowest uncertainty (smallest confidence intervals).
+
 - 90066: Mar Vista (bordering Playa Vista and Marina Del Rey)
 - 91602: Toluca Lake and parts of Studio City (smallest confidence intervals - safest investment)
 - 91423: Sherman Oaks
 - 91607: Valley Village
 - 90012: Chinatown/Downtown Los Angeles (slightly lower prices than the top 5)
 
-## Recommendations
+## Recommendations 
 
-I recommend using XGBoost as it performs faster and has a clear pattern of feature importance, and also has comparable recall and fewer false positives (thus slightly higher accuracy) than Random Forest.
+**Top 5 Zip Codes**
 
-### Business
+Based off of our projections and analysis, I recommend investing in zip codes 2-6, discussed above:
 
-There are a few different groups that I want to make recommendations for. It seems we have 3 groups of churners:
+90066: Mar Vista (bordering Playa Vista and Marina Del Rey)
+91602: Toluca Lake and parts of Studio City (2nd highest return & lowest relative risk)
+91423: Sherman Oaks
+91607: Valley Village
+90012: Chinatown/Downtown Los Angeles
 
-- Those on an international plan
-- Those with high charges
-- Those who have made a high number of customer service calls
+These offer the highest returns of all zip codes at around 165-200% return on investment (ROI) and have the least amount of variation among the top 9 zip codes. Mar Vista (90066) has slightly higher variation than the number 10 ranked zip code, but also with higher ROI.
 
-###  International Plan
+**Predicted Housing Bubble**
 
-Those with an international plan that churned had slightly higher charges. In future work I would want to find out exactly why people on international plans are churning. It could be that competitors have better plans or it could be that they moved back to another country. Are these customers traveling for work or here in the states temporarily? Do competitors have much more attractive and perhaps more cost effective international plans?
+I recommend waiting to see if the housing market crashes post-pandemic or at least post-second stimulus package. If the rental market is predicted to be strong, I recommend investing in the above neighborhoods when market values are low or stable, depending on what happens in the coming months and into 2021.
 
-###  High Charges
+**Century City**
 
-This group is probably being lost to competitors. I would recommend looking at competitors plans. Do these customers go over their plan? If so I would recommend proactively offering a higher grade package to this customer group to save them money instead of them having high overage charges.
+Century City is more uncertain due to market volatility, however the homes for sale are the same price range and style as the rest of the markets, so I would recommend doing more research on Century City before deciding to invest there. A new Westfield mall was built there, it has a nice wework and is considered up and coming, so the opportunity could be large. That being said, the risk could be larger as well.
 
-An alternative might be some type of booster package. Where if a customer goes over, they're given an add on package at a better rate than their overage, but still higher than their plan rate.
+**Strong Rental Markets**
 
-I would also recommend proactively letting these customers know when they're nearing an overage and offering them a plan that better fits their usage needs to prevent overages and thus high charges.
+If looking to invest now, and take advantage of low mortgage rates, again, I recommend investing where the rental markets are strong and least likely to be affected by a pandemic-related housing bubble or possible recession. Since Los Angeles is affected by shut downs to the entertainment industry as well as tourism and the restaurant, nightlife and retail industries, it is best again to either wait and see, or invest in zip codes where rental markets are expected to remain strong.
 
-###  High Customer Service Calls
+This leads us into our future work recommendations.
 
-I know telecommunications companies have a special department for customers who want to cancel. They offer them more competitive plans, savings or offers. It would be good to train customer service representatives to make better offers early on. I understand there may be a tradeoff here between making the offer to more customers who may not churn and thus finding a balance between proactively retaining customers who might churn and making better offers to customers who may not churn would be important.
+## Future Work
 
-There wasn't an apparent relationship between total charges and customer service calls. However, charges of churners were bi-modal, so these could be averaging each other out. I will speak on this in the future work section.
+**Rental Markets**
 
-I recommend the department that deals with cancellations proactively contact customers who have made more than 5 customer service calls as it seems that's where churn rate starts to significantly increase.
-
-## Further Research
-
-For future work I would recommend exploring the customer service calls of churners who made a high number of customer service calls.
-
-I would also recommend researching more competitive plans that exist, especially for high usage and international plans.
-
-As far as data science work, I would like to sus out the two groups of charges that churn (lower and higher) and discover why the lower group is churning and if there is any clear pattern there.
+Zillow also has rental market data. For future work I recommend analyzing the rental market and comparing it to our top zip codes from our analysis, so we can determine which zip codes would have higher rent-to-mortgage ratios. This would also help us further determine the best zip codes to invest in, the best to protect against a possible housing bubble and/or recession, and the overall maximum return on investment.
 
 ## Thank you!
 
