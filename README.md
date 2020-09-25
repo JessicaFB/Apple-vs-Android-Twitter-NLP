@@ -72,13 +72,15 @@ Ranked #2-6 by highest ROI and selected for by lowest uncertainty (smallest conf
 
 Based off of our projections and analysis, I recommend investing in zip codes 2-6, discussed above:
 
-90066: Mar Vista (bordering Playa Vista and Marina Del Rey)
-91602: Toluca Lake and parts of Studio City (2nd highest return & lowest relative risk)
-91423: Sherman Oaks
-91607: Valley Village
-90012: Chinatown/Downtown Los Angeles
+- 90066: Mar Vista (bordering Playa Vista and Marina Del Rey)
+- 91602: Toluca Lake and parts of Studio City (2nd highest return & lowest relative risk)
+- 91423: Sherman Oaks
+- 91607: Valley Village
+- 90012: Chinatown/Downtown Los Angeles
 
 These offer the highest returns of all zip codes at around 165-200% return on investment (ROI) and have the least amount of variation among the top 9 zip codes. Mar Vista (90066) has slightly higher variation than the number 10 ranked zip code, but also with higher ROI.
+
+!["Top 5 Zip Codes"](figures/Top_10_Zipcodes.png)
 
 **Predicted Housing Bubble**
 
