@@ -11,7 +11,7 @@ The strategy is buy and hold, so we will be looking at 5 year projections. And f
 
 ## Data
 
-From Zillow
+From Zillow:
 https://www.zillow.com/research/data/
 
 Zip_zhvi_uc_sfr_tier_0.33_0.67_sm_sa_mon.csv
@@ -54,7 +54,7 @@ We looked at the top 10 zip codes selecting for highest ROI, while also taking i
 
 ### Top 10 Zip Codes & Metrics  
 
-!["Top 10 Zip Codes"](figures/top_10_table.csv)
+!["Top 10 Zip Codes"](figures/Top_10_Zipcodes.png)
 
 ### Top 5 Zip Codes
 
