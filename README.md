@@ -44,13 +44,11 @@ I then ran a gridsearch for one zip code, West Hollywood and applied the model w
 
 We used dynamic forecasted and projected median home sale values for each zip code 5 years into the future and based the current median home sale value as the investment value. With the investment value and the 5-year projected value we calculated ROI (return on investment) as:
 
-profit/investment * 100 -which equated to- (forecasted value - current value)/investment value * 100
+profit/investment * 100 -which equated to- (forecasted value - current value)/investment value * 100 
 
-We then looked at the top 10 zip codes and took into account confidence intervals. The top projected zip code was removed due to the confidence intervals being so uncertain (large). The next 5 offered the highest ROI while having much smaller confidence intervals. 
+**Top 5 Zip Code Selection**
 
-**Top 5 Zip Code Selection
-
-We looked at the Top 10 zip codes selected 
+We looked at the top 10 zip codes selecting for highest ROI, while also taking into account confidence intervals or uncertainty. The top projected zip code was removed due to its confidence intervals being so uncertain (large). The next 5 zip codes offered the highest ROI while having much smaller confidence intervals, with the following zip code having much larger confidence intervals. Therefore, we selected #2-6 ranked by ROI as the top 5.
 
 ## Results
 
@@ -60,30 +58,11 @@ We looked at the Top 10 zip codes selected
 
 ### Top 5 Zip Codes
 
-We selected 
-
-### Feature Importance
-
-The top 3 most important features were the same for Random Forest and XGBoost, and those were:
-
-  #1: Having an international plan 
-  #2: Total charges
-  #3: Customer service calls (# of)
-  
-!["Feature Importance"](figures/feat_rank_XGB.png)
-  
-### EDA Insights
-
-We found that:
-
-- Customers with international plans are more likely to churn, and that customers with international plans appeared to have slightly higher charges.
-- Customers who had made more customer service calls were more likely to churn.
-- When it came to charges there were two distinct modes of churners: those with significantly higher charges than non-churners, and those with lower charges than non-churners.
-
-!["International Plan"](figures/international%20plan.png)
-!["Customer Service Calls"](figures/customer%20service%20calls.png)
-!["Total Charges"](figures/total%20charges.png)
-
+- 90066: Mar Vista (bordering Playa Vista and Marina Del Rey)
+- 91602: Toluca Lake and parts of Studio City (smallest confidence intervals - safest investment)
+- 91423: Sherman Oaks
+- 91607: Valley Village
+- 90012: Chinatown/Downtown Los Angeles (slightly lower prices than the top 5)
 
 ## Recommendations
 
