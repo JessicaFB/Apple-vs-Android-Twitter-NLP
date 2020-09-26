@@ -34,6 +34,10 @@ The data used were for single family homes on Zillow from 1/31/1996 through 7/31
 
 These were median home values for the 33rd - 67th percentile of each region. The data were seasonaly smoothed by Zillow, however upon decomposition, seasonality was discovered, so a SARIMAX model was used to account for seasonality.
 
+!["All Zip Codes"](figures/home_sale_prices.png)
+
+!["Seasonal Decomposition"](figures/seasonal_decomp_LA.png)
+
 **Parameter Selection**
 
 A gridsearch was conducted to find the optimal parameter values for the SARIMAX model. I averaged all Los Angeles zip codes and optimized parameters by lowest BIC. However, when I then applied this model to zip codes individually, the forecasted home values were off the charts high with very large confidence intervals. 
@@ -80,7 +84,7 @@ Based off of our projections and analysis, I recommend investing in zip codes 2-
 
 These offer the highest returns of all zip codes at around 165-200% return on investment (ROI) and have the least amount of variation among the top 9 zip codes. Mar Vista (90066) has slightly higher variation than the number 10 ranked zip code, but also with higher ROI.
 
-!["Top 5 Zip Codes"](figures/Top_10_Zipcodes.png)
+!["Top 5 Zip Codes"](figures/home_sale_prices_top_5.png)
 
 **Predicted Housing Bubble**
 
