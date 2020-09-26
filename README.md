@@ -89,6 +89,8 @@ Based off of our projections and analysis, I recommend investing in zip codes 2-
 
 These offer the highest returns of all zip codes at around 165-200% return on investment (ROI) and have the least amount of variation among the top 9 zip codes. Mar Vista (90066) has slightly higher variation than the number 10 ranked zip code, but also with higher ROI.
 
+Historic median home sale values for our top 5 selected zip codes:
+
 !["Top 5 Zip Codes"](figures/home_sale_prices_top_5.png)
 
 **Predicted Housing Bubble**
