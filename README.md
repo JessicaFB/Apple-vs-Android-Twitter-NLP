@@ -101,7 +101,7 @@ These offer the highest returns of all zip codes at around 165-200% return on in
 
 **Predicted Housing Bubble**
 
-I recommend waiting to see if the housing market crashes post-pandemic or at least post-second stimulus package. If the rental market is predicted to be strong, I recommend investing in the above neighborhoods when market values are low or stable, depending on what happens in the coming months and into 2021.
+I recommend waiting to see if the housing market dips post-pandemic or at least post-continuing stimulus package to secure the housing market like the first one did. If the rental market is predicted to be strong, I recommend investing in the above neighborhoods when market values are low or stable, depending on what happens in the coming months and into 2021.
 
 **Century City**
 
