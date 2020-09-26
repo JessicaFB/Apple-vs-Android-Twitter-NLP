@@ -28,14 +28,19 @@ Filename changed to: up_to_date_zillow_data.csv in this repository
 
 ## Methods 
 
-**Data & Model**
+**Data**
 
 The data used were for single family homes on Zillow from 1/31/1996 through 7/31/2020 (the most current data available at the time of this project).
 
-These were median home values for the 33rd - 67th percentile of each region. The data were seasonaly smoothed by Zillow, however upon decomposition, seasonality was discovered, so a SARIMAX model was used to account for seasonality.
+These were median home values for the 33rd - 67th percentile of each zip code. There were 100 total zip codes for the greater metropolitan region of Los Angeles, California.
 
 !["All Zip Codes"](figures/home_sale_prices.png)
 
+**Model & Seasonality**
+
+The data were seasonaly smoothed by Zillow, however upon decomposition, seasonality was discovered, so a SARIMAX model was used to account for seasonality in our time series model.
+
+Seasonal Decomposition:
 !["Seasonal Decomposition"](figures/seasonal_decomp_LA.png)
 
 **Parameter Selection**
