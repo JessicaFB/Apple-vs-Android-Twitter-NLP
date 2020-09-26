@@ -51,7 +51,7 @@ I then ran a gridsearch for one zip code, West Hollywood and applied the model w
 
 **Forecasting**
 
-We used dynamic forecasted and projected median home sale values for each zip code 5 years into the future and based the current median home sale value as the investment value. With the investment value and the 5-year projected value we calculated ROI (return on investment) as:
+We used dynamic forecasting and projected median home sale values for each zip code 5 years into the future and based the current median home sale value as the investment value. With the investment value and the 5-year projected value we calculated ROI (return on investment) as:
 
 profit/investment * 100 -which equated to- (forecasted value - current value)/investment value * 100 
 
