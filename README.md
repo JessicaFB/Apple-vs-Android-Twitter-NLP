@@ -75,6 +75,16 @@ Ranked #2-6 by highest ROI and selected for by lowest uncertainty (smallest conf
 - 91607: Valley Village
 - 90012: Chinatown/Downtown Los Angeles (slightly lower prices than the top 5)
 
+Here are the projected 5 year returns on investment for our top 5 zip codes with 95% confidence intervals:
+
+!["Projected ROI for Top 5"](figures/top_zipcodes_ROI.png)
+
+And here are the historic median home sale values for our top 5 selected zip codes:
+
+!["Top 5 Zip Codes"](figures/home_sale_prices_top_5.png)
+
+The dynamic projection figures for our top 5 zip codes can be found in our project notebook: https://github.com/JessicaFB/Time-Series-Modeling/blob/master/los_angeles_real_estate_notebook.ipynb under "**6.6  Models & 5 Year Dynamic Forecast for Top 5 Zip Codes**".
+
 ## Recommendations 
 
 **Top 5 Zip Codes**
@@ -88,10 +98,6 @@ Based off of our projections and analysis, I recommend investing in zip codes 2-
 - 90012: Chinatown/Downtown Los Angeles
 
 These offer the highest returns of all zip codes at around 165-200% return on investment (ROI) and have the least amount of variation among the top 9 zip codes. Mar Vista (90066) has slightly higher variation than the number 10 ranked zip code, but also with higher ROI.
-
-Historic median home sale values for our top 5 selected zip codes:
-
-!["Top 5 Zip Codes"](figures/home_sale_prices_top_5.png)
 
 **Predicted Housing Bubble**
 
