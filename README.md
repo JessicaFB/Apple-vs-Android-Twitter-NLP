@@ -20,11 +20,12 @@ Filename changed to: up_to_date_zillow_data.csv in this repository
 
 ## Contents 
 
-- figures - Figures folder
-- .gitignore - Git ignore file
-- README.md - Readme file
-- los_angeles_real_estate_notebook.ipynb - Notebook
-- up_to_date_zillow_data.csv - Data
+- figures : Figures folder
+- .gitignore : Git ignore file
+- Los_Angeles_Real_Estate.pdf : Presentation
+- README.md : Readme file
+- los_angeles_real_estate_notebook.ipynb : Jupyter Notebook
+- up_to_date_zillow_data.csv : Data
 
 ## Methods 
 
