@@ -78,7 +78,7 @@ Ranked #2-6 by highest ROI and selected for by lowest uncertainty (smallest conf
 
 Here are the projected 5 year returns on investment for our top 5 zip codes with 95% confidence intervals:
 
-!["Projected ROI for Top 5"](figures/top_zipcodes_ROI.png)
+!["Projected ROI for Top 5"](figures/top_5_zipcodes_ROI.png)
 
 And here are the historic median home sale values for our top 5 selected zip codes:
 
